@@ -51,25 +51,26 @@ struct EditPrescription: View {
                             SaveLoad().saveArrays(rx: rxArray, otc: otcArray)
                             dismiss()
                         } label: {
-                            Button("Schedule Notification") {
-                                let content = UNMutableNotificationContent()
-                                content.title = "Take Medicine"
-                                content.subtitle = "Timer is up"
-                                content.sound = UNNotificationSound.default
-                                
-                                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(frequency*3600), repeats: false)
-                                
-                                let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-                                
-                                print("Restarted Prescription Timer")
-                                UNUserNotificationCenter.current().add(request)
-                            }
+                            Text("Save")
                                 .font(
                                     .title
                                     .weight(.semibold)
 
                                 )
                         }
+                        
+                        Button {
+                            rx.lastDose = Date.now
+                            NotificationManager().scheduleNotification(title: "Medication Timer", subtitle: "Take a dose of \(rx.brandName) (\(rx.medName))", timeInterval: Double(rx.doseFrequency * 3600))
+                        } label: {
+                            Text("Restart Timer")
+                                .font(
+                                    .title
+                                    .weight(.semibold)
+
+                                )
+                        }
+                        
                         Button {
                             if let index = rxArray.firstIndex(of: rx){
                                 rxArray.remove(at: index)

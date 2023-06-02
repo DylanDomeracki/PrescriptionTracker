@@ -48,29 +48,29 @@ struct EditOTCMed: View {
                             med.medName = name
                             med.doseAmount = amount
                             med.doseFrequency = frequency
-                            med.lastDose = Date.now
                             SaveLoad().saveArrays(rx: rxArray, otc: otcArray)
                             dismiss()
                         } label: {
-                            Button("Restart Timer") {
-                                let content = UNMutableNotificationContent()
-                                content.title = "Take Medicine"
-                                content.subtitle = "Timer is up"
-                                content.sound = UNNotificationSound.default
-                                
-                                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(frequency*3600), repeats: false)
-                                
-                                let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-                                
-                                print("Restarted OTC Timer")
-                                UNUserNotificationCenter.current().add(request)
-                            }
+                            Text("Save")
                                 .font(
                                     .title
                                     .weight(.semibold)
 
                                 )
                         }
+                        
+                        Button {
+                            med.lastDose = Date.now
+                            NotificationManager().scheduleNotification(title: "Medication Timer", subtitle: "Take a dose of \(brandName) (\(medicineName))", timeInterval: Double(med.doseFrequency * 3600))
+                        } label: {
+                            Text("Restart Timer")
+                                .font(
+                                    .title
+                                    .weight(.semibold)
+
+                                )
+                        }
+                        
                         Button {
                             if let index = otcArray.firstIndex(of: med){
                                 otcArray.remove(at: index)

@@ -4,16 +4,20 @@ import Foundation
 struct TimerView: View {
     @State var nextDose: Date
     @State var timeUntilNextDose: String = ""
+    let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     
     var body: some View {
         Text(timeUntilNextDose + " until next dose")
             .font(
                 .body
-                .weight(.bold)
+                    .weight(.bold)
             )
             .onAppear(){
                 timeUntilNextDose = TimeUntil(until: nextDose)
             }
+            .onReceive(timer, perform: { _ in
+                timeUntilNextDose = TimeUntil(until: nextDose)
+            })
     }
     
     func TimeUntil(until referenceDate: Date) -> String {
@@ -26,4 +30,4 @@ struct TimerView: View {
         return timeString
     }
 }
-        
+

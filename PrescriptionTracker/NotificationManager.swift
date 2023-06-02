@@ -2,7 +2,7 @@ import SwiftUI
 import UserNotifications
 
 struct NotificationManager {
-    func ScheduleNotification(title: String, subtitle: String, timeInterval: Double) {
+    func scheduleNotification(title: String, subtitle: String, timeInterval: Double) {
         let content = UNMutableNotificationContent()
         content.title = title
         content.subtitle = subtitle
@@ -15,7 +15,7 @@ struct NotificationManager {
         UNUserNotificationCenter.current().add(request)
     }
     
-    func RequestPermission() {
+    func requestPermission() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { success, error in
             if success {
                 print("Notifications Permissions Granted")

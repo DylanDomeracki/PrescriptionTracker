@@ -49,19 +49,9 @@ struct AddOTCMed: View {
                         otcMeds.append(OTCMed(id: otcMeds.count, medName: medicineName, brandName: brandName, doseAmount: doseAmount, doseFrequency: doseFrequency, lastDose: Date.now))
                         SaveLoad().saveArrays(rx: prescriptions, otc: otcMeds)
                         
-                        let content = UNMutableNotificationContent()
-                        content.title = "Take Medicine"
-                        content.subtitle = "Timer is up"
-                        content.sound = UNNotificationSound.default
-                        
-                        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(doseFrequency *  3600), repeats: false)
-                        
-                        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
-                        
-                        print("OTC Notification Sending")
-                        UNUserNotificationCenter.current().add(request)
+                        NotificationManager().scheduleNotification(title: "Medication Timer", subtitle: "Take a dose of \(brandName) (\(medicineName))", timeInterval: Double(doseFrequency * 3600))
                     } label: {
-                        Text("Schedule Timer")
+                        Text("Save")
                             .font(
                                 .title
                                 .weight(.semibold)
