@@ -61,7 +61,7 @@ struct EditOTCMed: View {
                         
                         Button {
                             med.lastDose = Date.now
-                            NotificationManager().scheduleNotification(title: "Medication Timer", subtitle: "Take a dose of \(brandName) (\(medicineName))", timeInterval: Double(med.doseFrequency * 3600))
+                            NotificationManager().scheduleNotification(title: "Medication Timer", subtitle: "Take a dose of \(med.brandName) (\(med.medName))", timeInterval: Double(med.doseFrequency * 3600))
                         } label: {
                             Text("Restart Timer")
                                 .font(
