@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1CFC552A26855E00C94B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CFC542A26855E00C94B72 /* Assets.xcassets */; };
+		4A1CFC582A26855E00C94B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1CFC572A26855E00C94B72 /* Preview Assets.xcassets */; };
+		4A1CFC622A26855F00C94B72 /* PrescriptionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC612A26855F00C94B72 /* PrescriptionTrackerTests.swift */; };
+		4A1CFC6C2A26855F00C94B72 /* PrescriptionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC6B2A26855F00C94B72 /* PrescriptionTrackerUITests.swift */; };
+		4A1CFC6E2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC6D2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift */; };
+		4A1CFC7D2A2685DE00C94B72 /* AddOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */; };
+		4A1CFC7F2A26860600C94B72 /* AddPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */; };
+		4A1CFC812A26860B00C94B72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC802A26860B00C94B72 /* ContentView.swift */; };
+		4A1CFC832A26861900C94B72 /* EditOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC822A26861900C94B72 /* EditOTCMed.swift */; };
+		4A1CFC852A26861F00C94B72 /* EditPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC842A26861F00C94B72 /* EditPrescription.swift */; };
+		4A1CFC872A26862300C94B72 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC862A26862300C94B72 /* MyApp.swift */; };
+		4A1CFC892A26863100C94B72 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC882A26863100C94B72 /* Notifications.swift */; };
+		4A1CFC8B2A26863700C94B72 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */; };
+		4A1CFC8D2A26863C00C94B72 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8C2A26863C00C94B72 /* Prescription.swift */; };
+		4A1CFC8F2A26864000C94B72 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8E2A26864000C94B72 /* TimerView.swift */; };
+		4A1CFC912A26864D00C94B72 /* SaveLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC902A26864D00C94B72 /* SaveLoad.swift */; };
+		4A1CFC932A26865400C94B72 /* OTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC922A26865400C94B72 /* OTCMed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A1CFC5E2A26855F00C94B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A1CFC452A26855C00C94B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1CFC4C2A26855C00C94B72;
+			remoteInfo = PrescriptionTracker;
+		};
+		4A1CFC682A26855F00C94B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A1CFC452A26855C00C94B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A1CFC4C2A26855C00C94B72;
+			remoteInfo = PrescriptionTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1CFC4D2A26855C00C94B72 /* PrescriptionTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrescriptionTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1CFC542A26855E00C94B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A1CFC572A26855E00C94B72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A1CFC5D2A26855F00C94B72 /* PrescriptionTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrescriptionTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1CFC612A26855F00C94B72 /* PrescriptionTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTrackerTests.swift; sourceTree = "<group>"; };
+		4A1CFC672A26855F00C94B72 /* PrescriptionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrescriptionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A1CFC6B2A26855F00C94B72 /* PrescriptionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTrackerUITests.swift; sourceTree = "<group>"; };
+		4A1CFC6D2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddOTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/AddOTCMed.swift; sourceTree = "<group>"; };
+		4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPrescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/AddPrescription.swift; sourceTree = "<group>"; };
+		4A1CFC802A26860B00C94B72 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/ContentView.swift; sourceTree = "<group>"; };
+		4A1CFC822A26861900C94B72 /* EditOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditOTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/EditOTCMed.swift; sourceTree = "<group>"; };
+		4A1CFC842A26861F00C94B72 /* EditPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditPrescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/EditPrescription.swift; sourceTree = "<group>"; };
+		4A1CFC862A26862300C94B72 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyApp.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/MyApp.swift; sourceTree = "<group>"; };
+		4A1CFC882A26863100C94B72 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/Notifications.swift; sourceTree = "<group>"; };
+		4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationsView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/NotificationsView.swift; sourceTree = "<group>"; };
+		4A1CFC8C2A26863C00C94B72 /* Prescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/Prescription.swift; sourceTree = "<group>"; };
+		4A1CFC8E2A26864000C94B72 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/TimerView.swift; sourceTree = "<group>"; };
+		4A1CFC902A26864D00C94B72 /* SaveLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveLoad.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/SaveLoad.swift; sourceTree = "<group>"; };
+		4A1CFC922A26865400C94B72 /* OTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/OTCMed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A1CFC4A2A26855C00C94B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC5A2A26855F00C94B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC642A26855F00C94B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1CFC442A26855C00C94B72 = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC4F2A26855C00C94B72 /* PrescriptionTracker */,
+				4A1CFC602A26855F00C94B72 /* PrescriptionTrackerTests */,
+				4A1CFC6A2A26855F00C94B72 /* PrescriptionTrackerUITests */,
+				4A1CFC4E2A26855C00C94B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A1CFC4E2A26855C00C94B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC4D2A26855C00C94B72 /* PrescriptionTracker.app */,
+				4A1CFC5D2A26855F00C94B72 /* PrescriptionTrackerTests.xctest */,
+				4A1CFC672A26855F00C94B72 /* PrescriptionTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A1CFC4F2A26855C00C94B72 /* PrescriptionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */,
+				4A1CFC8E2A26864000C94B72 /* TimerView.swift */,
+				4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */,
+				4A1CFC8C2A26863C00C94B72 /* Prescription.swift */,
+				4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */,
+				4A1CFC802A26860B00C94B72 /* ContentView.swift */,
+				4A1CFC862A26862300C94B72 /* MyApp.swift */,
+				4A1CFC882A26863100C94B72 /* Notifications.swift */,
+				4A1CFC922A26865400C94B72 /* OTCMed.swift */,
+				4A1CFC902A26864D00C94B72 /* SaveLoad.swift */,
+				4A1CFC842A26861F00C94B72 /* EditPrescription.swift */,
+				4A1CFC822A26861900C94B72 /* EditOTCMed.swift */,
+				4A1CFC542A26855E00C94B72 /* Assets.xcassets */,
+				4A1CFC562A26855E00C94B72 /* Preview Content */,
+			);
+			path = PrescriptionTracker;
+			sourceTree = "<group>";
+		};
+		4A1CFC562A26855E00C94B72 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC572A26855E00C94B72 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A1CFC602A26855F00C94B72 /* PrescriptionTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC612A26855F00C94B72 /* PrescriptionTrackerTests.swift */,
+			);
+			path = PrescriptionTrackerTests;
+			sourceTree = "<group>";
+		};
+		4A1CFC6A2A26855F00C94B72 /* PrescriptionTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CFC6B2A26855F00C94B72 /* PrescriptionTrackerUITests.swift */,
+				4A1CFC6D2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift */,
+			);
+			path = PrescriptionTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A1CFC4C2A26855C00C94B72 /* PrescriptionTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1CFC712A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTracker" */;
+			buildPhases = (
+				4A1CFC492A26855C00C94B72 /* Sources */,
+				4A1CFC4A2A26855C00C94B72 /* Frameworks */,
+				4A1CFC4B2A26855C00C94B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrescriptionTracker;
+			productName = PrescriptionTracker;
+			productReference = 4A1CFC4D2A26855C00C94B72 /* PrescriptionTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A1CFC5C2A26855F00C94B72 /* PrescriptionTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1CFC742A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTrackerTests" */;
+			buildPhases = (
+				4A1CFC592A26855F00C94B72 /* Sources */,
+				4A1CFC5A2A26855F00C94B72 /* Frameworks */,
+				4A1CFC5B2A26855F00C94B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1CFC5F2A26855F00C94B72 /* PBXTargetDependency */,
+			);
+			name = PrescriptionTrackerTests;
+			productName = PrescriptionTrackerTests;
+			productReference = 4A1CFC5D2A26855F00C94B72 /* PrescriptionTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A1CFC662A26855F00C94B72 /* PrescriptionTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1CFC772A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTrackerUITests" */;
+			buildPhases = (
+				4A1CFC632A26855F00C94B72 /* Sources */,
+				4A1CFC642A26855F00C94B72 /* Frameworks */,
+				4A1CFC652A26855F00C94B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A1CFC692A26855F00C94B72 /* PBXTargetDependency */,
+			);
+			name = PrescriptionTrackerUITests;
+			productName = PrescriptionTrackerUITests;
+			productReference = 4A1CFC672A26855F00C94B72 /* PrescriptionTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A1CFC452A26855C00C94B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4A1CFC4C2A26855C00C94B72 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					4A1CFC5C2A26855F00C94B72 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4A1CFC4C2A26855C00C94B72;
+					};
+					4A1CFC662A26855F00C94B72 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 4A1CFC4C2A26855C00C94B72;
+					};
+				};
+			};
+			buildConfigurationList = 4A1CFC482A26855C00C94B72 /* Build configuration list for PBXProject "PrescriptionTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A1CFC442A26855C00C94B72;
+			productRefGroup = 4A1CFC4E2A26855C00C94B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A1CFC4C2A26855C00C94B72 /* PrescriptionTracker */,
+				4A1CFC5C2A26855F00C94B72 /* PrescriptionTrackerTests */,
+				4A1CFC662A26855F00C94B72 /* PrescriptionTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A1CFC4B2A26855C00C94B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1CFC582A26855E00C94B72 /* Preview Assets.xcassets in Resources */,
+				4A1CFC552A26855E00C94B72 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC5B2A26855F00C94B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC652A26855F00C94B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A1CFC492A26855C00C94B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1CFC892A26863100C94B72 /* Notifications.swift in Sources */,
+				4A1CFC872A26862300C94B72 /* MyApp.swift in Sources */,
+				4A1CFC812A26860B00C94B72 /* ContentView.swift in Sources */,
+				4A1CFC832A26861900C94B72 /* EditOTCMed.swift in Sources */,
+				4A1CFC932A26865400C94B72 /* OTCMed.swift in Sources */,
+				4A1CFC8D2A26863C00C94B72 /* Prescription.swift in Sources */,
+				4A1CFC8F2A26864000C94B72 /* TimerView.swift in Sources */,
+				4A1CFC852A26861F00C94B72 /* EditPrescription.swift in Sources */,
+				4A1CFC912A26864D00C94B72 /* SaveLoad.swift in Sources */,
+				4A1CFC7D2A2685DE00C94B72 /* AddOTCMed.swift in Sources */,
+				4A1CFC7F2A26860600C94B72 /* AddPrescription.swift in Sources */,
+				4A1CFC8B2A26863700C94B72 /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC592A26855F00C94B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1CFC622A26855F00C94B72 /* PrescriptionTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A1CFC632A26855F00C94B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1CFC6C2A26855F00C94B72 /* PrescriptionTrackerUITests.swift in Sources */,
+				4A1CFC6E2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A1CFC5F2A26855F00C94B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A1CFC4C2A26855C00C94B72 /* PrescriptionTracker */;
+			targetProxy = 4A1CFC5E2A26855F00C94B72 /* PBXContainerItemProxy */;
+		};
+		4A1CFC692A26855F00C94B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A1CFC4C2A26855C00C94B72 /* PrescriptionTracker */;
+			targetProxy = 4A1CFC682A26855F00C94B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4A1CFC6F2A26855F00C94B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A1CFC702A26855F00C94B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A1CFC722A26855F00C94B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrescriptionTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B57J87Y923;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A1CFC732A26855F00C94B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_USE_OPTIMIZATION_PROFILE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PrescriptionTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B57J87Y923;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A1CFC752A26855F00C94B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrescriptionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrescriptionTracker";
+			};
+			name = Debug;
+		};
+		4A1CFC762A26855F00C94B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrescriptionTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PrescriptionTracker";
+			};
+			name = Release;
+		};
+		4A1CFC782A26855F00C94B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrescriptionTracker;
+			};
+			name = Debug;
+		};
+		4A1CFC792A26855F00C94B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrescriptionTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A1CFC482A26855C00C94B72 /* Build configuration list for PBXProject "PrescriptionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CFC6F2A26855F00C94B72 /* Debug */,
+				4A1CFC702A26855F00C94B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1CFC712A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CFC722A26855F00C94B72 /* Debug */,
+				4A1CFC732A26855F00C94B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1CFC742A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CFC752A26855F00C94B72 /* Debug */,
+				4A1CFC762A26855F00C94B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A1CFC772A26855F00C94B72 /* Build configuration list for PBXNativeTarget "PrescriptionTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A1CFC782A26855F00C94B72 /* Debug */,
+				4A1CFC792A26855F00C94B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A1CFC452A26855C00C94B72 /* Project object */;
+}
