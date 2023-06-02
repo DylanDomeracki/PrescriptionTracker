@@ -12,18 +12,19 @@
 		4A1CFC622A26855F00C94B72 /* PrescriptionTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC612A26855F00C94B72 /* PrescriptionTrackerTests.swift */; };
 		4A1CFC6C2A26855F00C94B72 /* PrescriptionTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC6B2A26855F00C94B72 /* PrescriptionTrackerUITests.swift */; };
 		4A1CFC6E2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC6D2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift */; };
-		4A1CFC7D2A2685DE00C94B72 /* AddOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */; };
-		4A1CFC7F2A26860600C94B72 /* AddPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */; };
-		4A1CFC812A26860B00C94B72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC802A26860B00C94B72 /* ContentView.swift */; };
-		4A1CFC832A26861900C94B72 /* EditOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC822A26861900C94B72 /* EditOTCMed.swift */; };
-		4A1CFC852A26861F00C94B72 /* EditPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC842A26861F00C94B72 /* EditPrescription.swift */; };
-		4A1CFC872A26862300C94B72 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC862A26862300C94B72 /* MyApp.swift */; };
-		4A1CFC892A26863100C94B72 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC882A26863100C94B72 /* Notifications.swift */; };
-		4A1CFC8B2A26863700C94B72 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */; };
-		4A1CFC8D2A26863C00C94B72 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8C2A26863C00C94B72 /* Prescription.swift */; };
-		4A1CFC8F2A26864000C94B72 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC8E2A26864000C94B72 /* TimerView.swift */; };
-		4A1CFC912A26864D00C94B72 /* SaveLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC902A26864D00C94B72 /* SaveLoad.swift */; };
-		4A1CFC932A26865400C94B72 /* OTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CFC922A26865400C94B72 /* OTCMed.swift */; };
+		4ACED2DA2A2A450F00F2C0C1 /* AddOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2D92A2A450F00F2C0C1 /* AddOTCMed.swift */; };
+		4ACED2E72A2A452900F2C0C1 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2DB2A2A452600F2C0C1 /* NotificationsView.swift */; };
+		4ACED2E82A2A452900F2C0C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2DC2A2A452600F2C0C1 /* ContentView.swift */; };
+		4ACED2E92A2A452900F2C0C1 /* AddPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2DD2A2A452700F2C0C1 /* AddPrescription.swift */; };
+		4ACED2EA2A2A452900F2C0C1 /* EditPrescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2DE2A2A452700F2C0C1 /* EditPrescription.swift */; };
+		4ACED2EB2A2A452900F2C0C1 /* OTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2DF2A2A452700F2C0C1 /* OTCMed.swift */; };
+		4ACED2EC2A2A452900F2C0C1 /* Prescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E02A2A452800F2C0C1 /* Prescription.swift */; };
+		4ACED2ED2A2A452900F2C0C1 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E12A2A452800F2C0C1 /* NotificationManager.swift */; };
+		4ACED2EE2A2A452900F2C0C1 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E22A2A452800F2C0C1 /* Notifications.swift */; };
+		4ACED2EF2A2A452900F2C0C1 /* SaveLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E32A2A452800F2C0C1 /* SaveLoad.swift */; };
+		4ACED2F02A2A452900F2C0C1 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E42A2A452800F2C0C1 /* TimerView.swift */; };
+		4ACED2F12A2A452900F2C0C1 /* EditOTCMed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E52A2A452900F2C0C1 /* EditOTCMed.swift */; };
+		4ACED2F22A2A452900F2C0C1 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACED2E62A2A452900F2C0C1 /* MyApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,18 +53,19 @@
 		4A1CFC672A26855F00C94B72 /* PrescriptionTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrescriptionTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A1CFC6B2A26855F00C94B72 /* PrescriptionTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTrackerUITests.swift; sourceTree = "<group>"; };
 		4A1CFC6D2A26855F00C94B72 /* PrescriptionTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddOTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/AddOTCMed.swift; sourceTree = "<group>"; };
-		4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPrescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/AddPrescription.swift; sourceTree = "<group>"; };
-		4A1CFC802A26860B00C94B72 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/ContentView.swift; sourceTree = "<group>"; };
-		4A1CFC822A26861900C94B72 /* EditOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditOTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/EditOTCMed.swift; sourceTree = "<group>"; };
-		4A1CFC842A26861F00C94B72 /* EditPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditPrescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/EditPrescription.swift; sourceTree = "<group>"; };
-		4A1CFC862A26862300C94B72 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyApp.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/MyApp.swift; sourceTree = "<group>"; };
-		4A1CFC882A26863100C94B72 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/Notifications.swift; sourceTree = "<group>"; };
-		4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationsView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/NotificationsView.swift; sourceTree = "<group>"; };
-		4A1CFC8C2A26863C00C94B72 /* Prescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Prescription.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/Prescription.swift; sourceTree = "<group>"; };
-		4A1CFC8E2A26864000C94B72 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerView.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/TimerView.swift; sourceTree = "<group>"; };
-		4A1CFC902A26864D00C94B72 /* SaveLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaveLoad.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/SaveLoad.swift; sourceTree = "<group>"; };
-		4A1CFC922A26865400C94B72 /* OTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OTCMed.swift; path = ../../../Documents/PrescriptionTracker.swiftpm/OTCMed.swift; sourceTree = "<group>"; };
+		4ACED2D92A2A450F00F2C0C1 /* AddOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOTCMed.swift; sourceTree = "<group>"; };
+		4ACED2DB2A2A452600F2C0C1 /* NotificationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		4ACED2DC2A2A452600F2C0C1 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ACED2DD2A2A452700F2C0C1 /* AddPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPrescription.swift; sourceTree = "<group>"; };
+		4ACED2DE2A2A452700F2C0C1 /* EditPrescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPrescription.swift; sourceTree = "<group>"; };
+		4ACED2DF2A2A452700F2C0C1 /* OTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTCMed.swift; sourceTree = "<group>"; };
+		4ACED2E02A2A452800F2C0C1 /* Prescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prescription.swift; sourceTree = "<group>"; };
+		4ACED2E12A2A452800F2C0C1 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		4ACED2E22A2A452800F2C0C1 /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		4ACED2E32A2A452800F2C0C1 /* SaveLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveLoad.swift; sourceTree = "<group>"; };
+		4ACED2E42A2A452800F2C0C1 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		4ACED2E52A2A452900F2C0C1 /* EditOTCMed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditOTCMed.swift; sourceTree = "<group>"; };
+		4ACED2E62A2A452900F2C0C1 /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,18 +116,19 @@
 		4A1CFC4F2A26855C00C94B72 /* PrescriptionTracker */ = {
 			isa = PBXGroup;
 			children = (
-				4A1CFC7C2A2685DE00C94B72 /* AddOTCMed.swift */,
-				4A1CFC8E2A26864000C94B72 /* TimerView.swift */,
-				4A1CFC7E2A26860600C94B72 /* AddPrescription.swift */,
-				4A1CFC8C2A26863C00C94B72 /* Prescription.swift */,
-				4A1CFC8A2A26863600C94B72 /* NotificationsView.swift */,
-				4A1CFC802A26860B00C94B72 /* ContentView.swift */,
-				4A1CFC862A26862300C94B72 /* MyApp.swift */,
-				4A1CFC882A26863100C94B72 /* Notifications.swift */,
-				4A1CFC922A26865400C94B72 /* OTCMed.swift */,
-				4A1CFC902A26864D00C94B72 /* SaveLoad.swift */,
-				4A1CFC842A26861F00C94B72 /* EditPrescription.swift */,
-				4A1CFC822A26861900C94B72 /* EditOTCMed.swift */,
+				4ACED2D92A2A450F00F2C0C1 /* AddOTCMed.swift */,
+				4ACED2DD2A2A452700F2C0C1 /* AddPrescription.swift */,
+				4ACED2DC2A2A452600F2C0C1 /* ContentView.swift */,
+				4ACED2E52A2A452900F2C0C1 /* EditOTCMed.swift */,
+				4ACED2DE2A2A452700F2C0C1 /* EditPrescription.swift */,
+				4ACED2E62A2A452900F2C0C1 /* MyApp.swift */,
+				4ACED2E12A2A452800F2C0C1 /* NotificationManager.swift */,
+				4ACED2E22A2A452800F2C0C1 /* Notifications.swift */,
+				4ACED2DB2A2A452600F2C0C1 /* NotificationsView.swift */,
+				4ACED2DF2A2A452700F2C0C1 /* OTCMed.swift */,
+				4ACED2E02A2A452800F2C0C1 /* Prescription.swift */,
+				4ACED2E32A2A452800F2C0C1 /* SaveLoad.swift */,
+				4ACED2E42A2A452800F2C0C1 /* TimerView.swift */,
 				4A1CFC542A26855E00C94B72 /* Assets.xcassets */,
 				4A1CFC562A26855E00C94B72 /* Preview Content */,
 			);
@@ -225,6 +228,7 @@
 				TargetAttributes = {
 					4A1CFC4C2A26855C00C94B72 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					4A1CFC5C2A26855F00C94B72 = {
 						CreatedOnToolsVersion = 14.3;
@@ -287,18 +291,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A1CFC892A26863100C94B72 /* Notifications.swift in Sources */,
-				4A1CFC872A26862300C94B72 /* MyApp.swift in Sources */,
-				4A1CFC812A26860B00C94B72 /* ContentView.swift in Sources */,
-				4A1CFC832A26861900C94B72 /* EditOTCMed.swift in Sources */,
-				4A1CFC932A26865400C94B72 /* OTCMed.swift in Sources */,
-				4A1CFC8D2A26863C00C94B72 /* Prescription.swift in Sources */,
-				4A1CFC8F2A26864000C94B72 /* TimerView.swift in Sources */,
-				4A1CFC852A26861F00C94B72 /* EditPrescription.swift in Sources */,
-				4A1CFC912A26864D00C94B72 /* SaveLoad.swift in Sources */,
-				4A1CFC7D2A2685DE00C94B72 /* AddOTCMed.swift in Sources */,
-				4A1CFC7F2A26860600C94B72 /* AddPrescription.swift in Sources */,
-				4A1CFC8B2A26863700C94B72 /* NotificationsView.swift in Sources */,
+				4ACED2DA2A2A450F00F2C0C1 /* AddOTCMed.swift in Sources */,
+				4ACED2EB2A2A452900F2C0C1 /* OTCMed.swift in Sources */,
+				4ACED2E72A2A452900F2C0C1 /* NotificationsView.swift in Sources */,
+				4ACED2EE2A2A452900F2C0C1 /* Notifications.swift in Sources */,
+				4ACED2EF2A2A452900F2C0C1 /* SaveLoad.swift in Sources */,
+				4ACED2EC2A2A452900F2C0C1 /* Prescription.swift in Sources */,
+				4ACED2F02A2A452900F2C0C1 /* TimerView.swift in Sources */,
+				4ACED2E82A2A452900F2C0C1 /* ContentView.swift in Sources */,
+				4ACED2E92A2A452900F2C0C1 /* AddPrescription.swift in Sources */,
+				4ACED2F12A2A452900F2C0C1 /* EditOTCMed.swift in Sources */,
+				4ACED2ED2A2A452900F2C0C1 /* NotificationManager.swift in Sources */,
+				4ACED2EA2A2A452900F2C0C1 /* EditPrescription.swift in Sources */,
+				4ACED2F22A2A452900F2C0C1 /* MyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -474,6 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.jhhs.624103.PrescriptionTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -484,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_USE_OPTIMIZATION_PROFILE = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
